@@ -1,6 +1,11 @@
 /*-------------------------------*/
+
+
 /*-------DEFAULT SETUP*/
+
+
 /*-------------------------------*/
+
 * {
     padding: 0px;
     margin: 0px;
@@ -20,9 +25,15 @@ body {
     overflow-x: hidden;
 }
 
+
 /*-------------------------------*/
+
+
 /*-------REUSEABLE COMPONENT*/
+
+
 /*-------------------------------*/
+
 .btn {
     text-decoration: none;
     color: white;
@@ -43,10 +54,11 @@ body {
 .row {
     max-width: 1140px;
     margin: 0 auto;
-    border: 1px solid black;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     text-transform: uppercase;
     letter-spacing: 1px;
 }
@@ -107,9 +119,15 @@ section {
     margin-right: 10px;
 }
 
+
 /*-------------------------------*/
+
+
 /*-------HEADER*/
+
+
 /*-------------------------------*/
+
 header {
     background-image: linear-gradient(45deg, rgba(2, 33, 64, 0.8) 55%, rgba(45, 95, 93, 0.85)), url("../img/back.jpg");
     background-size: cover;
@@ -165,9 +183,15 @@ header {
     width: 1140px;
 }
 
+
 /*-------------------------------*/
+
+
 /*-------ABOUT SECTION*/
+
+
 /*-------------------------------*/
+
 .about-picture {
     position: relative;
     cursor: pointer;
@@ -204,9 +228,15 @@ header {
     transition: all 0.7s;
 }
 
+
 /*-------------------------------*/
+
+
 /*-------ABOUT SECTION*/
+
+
 /*-------------------------------*/
+
 .products-section {
     background-color: #f4f4f4;
 }
@@ -245,9 +275,15 @@ header {
     margin-top: 5%;
 }
 
+
 /*-------------------------------*/
+
+
 /*-------TESTIMONIALS SECTION*/
+
+
 /*-------------------------------*/
+
 .testimonials-section {
     background-image: linear-gradient(45deg, rgba(2, 33, 64, 0.8) 55%, rgba(45, 95, 93, 0.85)), url("../img/background4.jpeg");
     background-size: cover;
@@ -290,9 +326,15 @@ cite img {
     margin-right: 5px;
 }
 
+
 /*-------------------------------*/
+
+
 /*-------SPONSER SECTION*/
+
+
 /*-------------------------------*/
+
 .sponsors-section {
     background-color: #f4f4f4;
 }
@@ -330,9 +372,15 @@ figcaption {
     font-size: 120%;
 }
 
+
 /*-------------------------------*/
+
+
 /*-------CONTACT FORM*/
+
+
 /*-------------------------------*/
+
 .contact-section {
     background-image: linear-gradient(45deg, rgba(2, 33, 64, 0.8) 55%, rgba(45, 95, 93, 0.85)), url('../img/background5.jpeg');
     background-position: center;
@@ -381,15 +429,16 @@ figcaption {
     transform: scale(1.3);
     color: #e67e22;
 }
+
+
 /*-------FORM*/
+
 .row-sticky {
     position: sticky;
     top: 0px;
 }
 
-.search-form-holder {
-
-}
+.search-form-holder {}
 
 .search-form {
     width: 50%;
@@ -413,7 +462,7 @@ figcaption {
 }
 
 form {
-    background-color: rgba(0, 0, 0 , 0.4);
+    background-color: rgba(0, 0, 0, 0.4);
     margin-left: 40%;
     width: 68%;
     padding: 30px;
@@ -430,7 +479,8 @@ label {
     padding: 30px;
 }
 
-input, textarea {
+input,
+textarea {
     outline: none;
     padding: 10px;
     background-color: rgba(47, 47, 47, 0.4);
@@ -445,13 +495,17 @@ textarea {
     height: 100px;
 }
 
-input[type=text], input[type=email], textarea {
+input[type=text],
+input[type=email],
+textarea {
     width: 80%;
     font-size: 100%;
     transition: all 0.3s;
 }
 
-input[type=text]:focus, input[type=email]:focus, textarea:focus {
+input[type=text]:focus,
+input[type=email]:focus,
+textarea:focus {
     color: white;
     background-color: rgba(47, 47, 47, 0.8);
 }
@@ -471,9 +525,15 @@ input[type=submit] {
     width: 60%;
 }
 
+
 /*-------------------------------*/
+
+
 /*-------FOOTER*/
+
+
 /*-------------------------------*/
+
 footer {
     text-align: center;
     background-color: #494949;
